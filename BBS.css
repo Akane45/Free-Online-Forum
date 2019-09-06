@@ -1,0 +1,75 @@
+* {
+  font-family: 'Georgia', serif;
+  margin: 0;
+}
+body {
+  background: #fafafa;
+}
+.screen {
+  background-image: url("Venice.jpg");
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.screen::before {
+  width: 100%;
+  height: 800px;
+  content: '';
+  position: absolute;
+  background-color: #333;
+  opacity: 0.2;
+}
+.screen h1 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: #eaeaea;
+  padding: 1em 0;
+  height: 30px;
+  font-size: 40px;
+  z-index: 10;
+  padding: 100;
+}
+
+h3  {
+  color: #595454;
+}
+.form-item input {
+  margin:  0 auto;
+  width: 60%;
+  border-bottom: 2px solid #e9e9e9;
+  background: #fafafa;
+  font-size: 15px;
+  height: 30px;
+  width: 500px;
+}
+.button-panel .button {
+  background:#00738A;
+  color: #e9e9e9;
+  border-bottom: 2px solid #e9e9e9;
+  width: 60%;
+  font-size: 15px;
+  height: 30px;
+  width: 100px;
+}
+.button-panel .button:hover{
+  opacity:0.8;
+  cursor: pointer;
+  text-decoration: none;
+}
+.comment{
+  padding: 0.2em 0.5em;
+  margin: 2em 0;
+  color: #565656;
+  background: #e3ebf3;
+  box-shadow: 0px 0px 0px 10px #e3ebf3;
+  border: dashed 2px #fff;
+  border-radius: 8px;
+}
+.comment p {
+  margin: 0;
+  padding: 0;
+}
